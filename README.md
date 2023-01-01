@@ -2,6 +2,8 @@
 
 A simple demo to show how to implement custom operators in PyTorch with cuda/c++.
 
+More details can be seen in [知乎: 用Cuda实现PyTorch算子](https://zhuanlan.zhihu.com/p/595851188).
+
 ## Usage
 With PyTorch installation, simply run `pip install -e .`
 

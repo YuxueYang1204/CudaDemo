@@ -15,7 +15,7 @@ class Timer:
     def __exit__(self, exc_type, exc_val, exc_tb):
         torch.cuda.synchronize()
         self.end_time = time.time()
-        print(f"Average time cost of {self.op_name} is {(self.end_time - self.begin_time) * 1000} ms")
+        print(f"Average time cost of {self.op_name} is {(self.end_time - self.begin_time) * 1000:.4f} ms")
 
 
 if __name__ == '__main__':
